@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -37,3 +38,33 @@
     transform: translateY(0px);
   }
 }
+
+.content {
+  color: white;
+}
+.navlogo {
+  height: 150px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.portrait {
+  height: 400px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.summary {
+  max-width: 400px;
+  background-color: black;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  padding: 2px;
+  margin-bottom: 30px;
+
+}
+
+
+

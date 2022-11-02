@@ -1,5 +1,5 @@
 import { Container } from 'reactstrap';
-const Portfolio = () => {
+const Contact = () => {
     return(
         <Container>
             Hello
@@ -7,4 +7,4 @@ const Portfolio = () => {
     )
 };
 
-export default Portfolio;
+export default Contact;
