@@ -7,13 +7,12 @@ const SkillsList = () => {
     const skills = useSelector(selectAllSkills);
 
     return (
-        <Container className='p-5'>
+        <Container className='p-0 mt-2'>
         <Row>
             {skills.map((skill) => {
                 return(
                     <Col md='2'
-                        sm='4'
-                        xs='6'
+                        xs='4'
                         className='mt-2 mb-2 skill-container' 
                         key={skill.name}>
                         <SkillCard skill={skill} />

@@ -10,7 +10,7 @@ const SkillCard = ({skill}) => {
                 src={image}
                 alt={name}
             /> 
-            <p className='content mb-0'>{name}</p>
+            <p className='content mb-0 skill-name'>{name}</p>
             
         </div>
     );

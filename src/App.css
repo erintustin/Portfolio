@@ -42,14 +42,21 @@
 .content {
   color: white;
 }
+
 .navlogo {
-  height: 150px;
+  height: 50px;
   margin: 5px;
-  border-radius: 50%;
+  margin-right: 15px;
+
 }
 
-.portrait {
-  height: 400px;
+.navbarbrand{
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  height: 200px;
   margin: 5px;
   border-radius: 50%;
 }
@@ -72,8 +79,12 @@
 }
 
 .skill-img {
-  max-width: 50px;
+  max-width: 30px;
   margin: 0;
+}
+
+.skill-name {
+  font-size: 10px;
 }
 
 .skill-container {

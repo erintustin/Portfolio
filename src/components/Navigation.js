@@ -8,17 +8,17 @@ import { Navbar,
         NavbarText
         } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import avatar from '../app/assets/images/avatar.jpg';
+import logo from '../app/assets/images/logo.png';
 
 const Navigation = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return(
         <Navbar dark color='black' sticky='top' expand='md' className='mt-0'>
-            <NavbarBrand className='ms-5' href='/'>
-                <img src={avatar} alt='avatar' className='navlogo float-start' href='/'/>
+            <NavbarBrand className='ms-5 navbarbrand' href='/'>
+                <img src={logo} alt='Et logo' className='navlogo float-start' href='/'/>
+            <NavbarText className='h1'>Erin Tustin</NavbarText>
             </NavbarBrand>
-            <NavbarText className='h1 '>Erin Tustin</NavbarText>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse isOpen={menuOpen} navbar>
             <Nav className='ms-auto' navbar>
