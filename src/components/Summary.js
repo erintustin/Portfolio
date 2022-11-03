@@ -1,4 +1,4 @@
-import { Container } from "reactstrap";
+import { Container, Button, ButtonGroup } from "reactstrap";
 
 const Summary = () => {
     return(
@@ -7,6 +7,10 @@ const Summary = () => {
             <div className='content'>
                 I’m an energetic and adaptable recent bootcamp graduate seeking a junior developer role.
             </div>
+                <ButtonGroup className='main-buttons'>
+                    <Button className='m-1'>Projects</Button>
+                    <Button className='m-1'>Resume</Button>
+                </ButtonGroup>
 </Container>
     )
 };

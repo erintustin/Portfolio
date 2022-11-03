@@ -1,19 +1,20 @@
-import accessiblity from './images/skills/accessiblity.png';
-import adobexd from './images/skills/adobexd.png';
-import bootstrap from './images/skills/bootstrap.png';
-import css from './images/skills/css.png';
-import expo from './images/skills/expo.png';
-import express from './images/skills/express.png';
-import firebase from './images/skills/firebase.png';
-import git from './images/skills/git.png';
-import googlecloud from './images/skills/google-cloud.png';
-import html from './images/skills/html.png';
-import javascript from './images/skills/javascript.png';
-import mongo from './images/skills/mongo.png';
-import node from './images/skills/node.png';
-import photoshop from './images/skills/photoshop.png';
-import reactnative from './images/skills/react-native.png';
-import react from './images/skills/react.png';
+import accessiblity from '../images/skills/accessiblity.png';
+import adobexd from '../images/skills/adobexd.png';
+import aws from '../images/skills/aws.png';
+import bootstrap from '../images/skills/bootstrap.png';
+import css from '../images/skills/css.png';
+import expo from '../images/skills/expo.png';
+import express from '../images/skills/express.png';
+import firebase from '../images/skills/firebase.png';
+import git from '../images/skills/git.png';
+import googlecloud from '../images/skills/google-cloud.png';
+import html from '../images/skills/html.png';
+import javascript from '../images/skills/javascript.png';
+import mongo from '../images/skills/mongo.png';
+import node from '../images/skills/node.png';
+import photoshop from '../images/skills/photoshop.png';
+import reactnative from '../images/skills/react-native.png';
+import react from '../images/skills/react.png';
 
 export const SKILLS = [
     {

@@ -54,7 +54,7 @@
   border-radius: 50%;
 }
 
-.summary {
+.summary, .skills {
   max-width: 400px;
   background-color: black;
   border-color: white;
@@ -66,5 +66,21 @@
 
 }
 
+.skill-card {
+  display: inline;
+  justify-content: center;
+}
 
+.skill-img {
+  max-width: 50px;
+  margin: 0;
+}
 
+.skill-container {
+  align-self: center;
+  margin-top: 0px;
+}
+
+.main-buttons {
+  margin-top: 20px;
+}
