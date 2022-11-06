@@ -2,7 +2,7 @@ import { PROJECTS } from '../../app/assets/data/PROJECTS';
 import {createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-    resourcesArray: PROJECTS
+    projectsArray: PROJECTS
 };
 
 const projectsSlice = createSlice({

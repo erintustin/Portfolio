@@ -95,3 +95,21 @@
 .main-buttons {
   margin-top: 20px;
 }
+
+.project-card {
+  max-width: 600px;
+}
+
+.portfolio-slide {
+  margin-bottom: 75px;
+}
+
+.carousel-control {
+  margin: -75px;
+}
+
+
+
+
+
+
