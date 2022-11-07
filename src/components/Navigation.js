@@ -29,7 +29,7 @@ const Navigation = () => {
                     <NavLink className='nav-link' to='/resume'>Resume </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className='nav-link' to='/contact'>Contact </NavLink>
+                    <a className='nav-link' href='mailto:erintustin@gmail.com'>Contact </a>
                 </NavItem>
             </Nav>
             </Collapse>

@@ -61,7 +61,7 @@
   border-radius: 50%;
 }
 
-.summary, .skills {
+.summary, .skills, .contact {
   max-width: 400px;
   background-color: black;
   border-color: white;
