@@ -100,14 +100,26 @@
   max-width: 600px;
 }
 
+.project-card-img {
+    height: 350px;
+}
+
 .portfolio-slide {
   margin-bottom: 75px;
+}
+
+.screenshot{
+  max-height: 300px;
 }
 
 .carousel-control {
   margin: -75px;
 }
 
+.breadcrumb {
+  margin-left: 50px;
+  text-align: left;
+}
 
 
 

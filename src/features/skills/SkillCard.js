@@ -1,5 +1,3 @@
-import { Container, Row, Col, Image } from 'reactstrap';
-
 const SkillCard = ({skill}) => {
     const { name, image } = skill;
 

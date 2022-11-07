@@ -15,3 +15,9 @@ export const projectsReducer = projectsSlice.reducer;
 export const selectAllProjects = (state) => {
     return state.projects.projectsArray;
 };
+
+export const selectProjectByName = (name) => (state) => {
+    return state.projects.projectsArray.find(
+        (project) => project.name
+    );
+};

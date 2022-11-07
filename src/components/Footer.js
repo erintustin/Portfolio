@@ -10,7 +10,7 @@ const Footer = () => {
                     <Col className='mx-auto p-10'>
                         <a
                             role='button'
-                            className='btn btn-social-icon btn-dark'
+                            className='btn btn-social-icon btn-dark mb-2'
                             href='https://github.com/erintustin/'
                             target='new_window'
                         >
@@ -18,7 +18,7 @@ const Footer = () => {
                         </a>{' '}
                         <a
                             role='button'
-                            className='btn btn-social-icon btn-dark'
+                            className='btn btn-social-icon btn-dark mb-2'
                             href='https://www.linkedin.com/in/etustin/'
                             target='new_window'
                         >
@@ -26,11 +26,12 @@ const Footer = () => {
                         </a>{' '}
                         <a
                             role='button'
-                            className='btn btn-social-icon btn-dark'
+                            className='btn btn-social-icon btn-dark mb-2'
                             href='mailto:erintustin@gmail.com'
                         >
                             <i className='fa fa-envelope-o' />
                         </a>
+                        <p>© 2022 Erin Tustin</p>
                     </Col>
                 </Row>
             </Container>

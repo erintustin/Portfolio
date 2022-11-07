@@ -4,8 +4,9 @@ import { selectAllProjects } from '../features/projects/ProjectsSlice';
 import {Carousel, CarouselItem, CarouselControl, CarouselIndicators, 
         Container, Row, Col } from 'reactstrap';
 import ProjectCard from '../features/projects/ProjectCard';
+import SubHeader from '../components/SubHeader';
 
-const Portfolio = () => {
+const ProjectsPage = () => {
     const projects = useSelector(selectAllProjects);
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
@@ -41,6 +42,8 @@ const Portfolio = () => {
     });
 
     return (
+        <>
+        <SubHeader current='Projects' />
         <Container className='mx-auto'>
             <Row>
                 <Col xs='10' className='mx-auto'>
@@ -76,7 +79,8 @@ const Portfolio = () => {
                 </Col>
             </Row>
       </Container>
+      </>
     );
 };
 
-export default Portfolio;
+export default ProjectsPage;
