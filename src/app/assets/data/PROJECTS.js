@@ -25,15 +25,15 @@ export const PROJECTS = [
     id: 1
 },
 {
-    name:'Congrats, You’re Autistic! Build Your Own Neurodiversity-Affirming Toolkit',
+    name:'Build Your Own Neurodiversity-Affirming Toolkit',
     screenshots:[congratsreactnative01, congratsreactnative02, congratsreactnative03, congratsreactnative04, congratsreactnative05, congratsreactnative06, congratsreactnative07],
-    description:"A mobile app companion to the 'Congrats, You're Autistic' web app that allows users to create a personalized toolkit using preloaded resources as well as adding their own favorites from the web.",          
+    description:"A mobile app companion to the 'Congrats, You're Autistic' web app",          
     skills:['HTML5', 'CSS3', 'JavaScript', 'JSX', 'React Native', 'React Navigation', 'React Native Animated', 
             'Express', 'Expo', 'Git', 'GitHub', 'Adobe Photoshop', 'Adobe XD'],
     url:'https://www.loom.com/share/45e38eac0346450889aa984485132465',
     github:'https://github.com/erintustin/CYA-React-Native',
     readme: 'https://github.com/erintustin/CYA-React-Native#readme',
-    details: "The 'Build Your Own Neurodiversity-Affirming Toolkit' mobile app allows users to keep the 'Congrats You're Autistic' toolkit resources most relevant to them within easy reach and allows them to add additional resources from the web for a personalized experience.",
+    details: "The 'Build Your Own Neurodiversity-Affirming Toolkit' mobile app allows users to keep the 'Congrats You're Autistic' toolkit resources most relevant to them within easy reach as well as allowing them to add their own additional resources from the web for a personalized experience.",
     featured: true,
     id: 2
 }

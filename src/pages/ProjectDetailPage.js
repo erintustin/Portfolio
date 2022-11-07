@@ -7,6 +7,7 @@ import SubHeader from '../components/SubHeader';
 
 const ProjectDetailPage = () => {
     const { projectName } = useParams();
+    console.log(projectName);
     const project = useSelector(selectProjectByName(projectName));
     console.log('project:', project);
 

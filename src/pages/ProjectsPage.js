@@ -46,6 +46,11 @@ const ProjectsPage = () => {
         <SubHeader current='Projects' />
         <Container className='mx-auto'>
             <Row>
+                <Col className='mx-auto'>
+                    <h2 style={{color:'white'}}>PROJECTS</h2>
+                </Col>
+            </Row>
+            <Row>
                 <Col xs='10' className='mx-auto'>
                     <Carousel
                         activeIndex={activeIndex}

@@ -12,8 +12,8 @@ const Summary = () => {
                 I specialize in mobile-first and responsive design with a focus on accessibility.
             </div>
                 <ButtonGroup className='main-buttons'>
-                    <Button className='m-1'>Projects</Button>
-                    <Button className='m-1'>Resume</Button>
+                    <Button href='/projects' className='m-1'>Projects</Button>
+                    <Button href='/resume' className='m-1'>Resume</Button>
                 </ButtonGroup>
 </Container>
     )

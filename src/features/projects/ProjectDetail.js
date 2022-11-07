@@ -10,13 +10,13 @@ const ProjectDetail = ({project}) => {
 
     const next = () => {
         if (animating) return;
-        const nextIndex = activeIndex === project.screenshots.length - 1 ? 0 : activeIndex + 1;
+        const nextIndex = activeIndex === screenshots.length - 1 ? 0 : activeIndex + 1;
         setActiveIndex(nextIndex);
     };
 
     const previous = () => {
         if (animating) return;
-        const nextIndex = activeIndex === 0 ? project.screenshots.length - 1 : activeIndex - 1;
+        const nextIndex = activeIndex === 0 ? screenshots.length - 1 : activeIndex - 1;
         setActiveIndex(nextIndex);
     };
 
@@ -25,7 +25,7 @@ const ProjectDetail = ({project}) => {
         setActiveIndex(newIndex);
     };
 
-    const slides = project.screenshots.map((screenshot, i) => {
+    const slides = screenshots.map((screenshot, i) => {
         return(
             <CarouselItem
                 onExiting={() => setAnimating(true)}
@@ -36,7 +36,7 @@ const ProjectDetail = ({project}) => {
                 <img 
                     className='screenshot mx-auto img-fluid' 
                     src={screenshot} 
-                    alt={`Screenshot of ${project.name}`} 
+                    alt={`Screenshot of ${name}`} 
                 />
             </CarouselItem> 
             );
@@ -45,7 +45,7 @@ const ProjectDetail = ({project}) => {
         <Container className='mx-auto'>
             <Row>
                 <Col md='8' className='mx-auto'>
-                    <h2 className='content'>{project.name}</h2>
+                    <h2 className='content'>{name}</h2>
                 </Col>
             </Row>
             <Row>
@@ -80,12 +80,12 @@ const ProjectDetail = ({project}) => {
             </Row>
             <Row>
                 <Col md='7' style={{marginTop:'-50px'}}className='mx-auto'>
-                    <h5 className='content'>{project.description}</h5>
+                    <h5 className='content'>{description}</h5>
                 </Col>
             </Row>
             <Row>
                 <Col md='7' className='mx-auto'>
-                    <p className='content' align='justify'>{project.details}</p>
+                    <p className='content' align='justify'>{details}</p>
                 </Col>
             </Row>
             <Row>
@@ -114,7 +114,7 @@ const ProjectDetail = ({project}) => {
             </Row>
             <Row>
                 <Col xs='12' md='7' className='mx-auto mb-5'>
-                    <p align='justify'>{project.skills.join(', ')}</p>
+                    <p align='justify'>{skills.join(', ')}</p>
                 </Col>
             </Row>
       </Container>

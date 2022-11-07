@@ -18,6 +18,6 @@ export const selectAllProjects = (state) => {
 
 export const selectProjectByName = (name) => (state) => {
     return state.projects.projectsArray.find(
-        (project) => project.name
+        (project) => project.name === name
     );
 };
